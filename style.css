@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("background.webp");
+    background-size: contain;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+}
+.content h1{
+font-size: 70px;
+margin-top: 80px;
+}
+.content p{
+    margin: 20px;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    padding: 15px 0;
+    width: 200px;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 1px solid #009688;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+button:hover {
+    border: none;
+}
+
+
+/*---------------------History-section---------------------*/
+.H-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("median.jpg");
+    background-size: contain;
+    background-position: center;
+}
+/*-----------salah al-din----------*/
+.saladin{
+    display: flex;
+    flex-direction: row ;
+    justify-content:space-evenly;
+    margin: -30px;
+    margin-top: 30px;
+    
+}
+.saladinLay{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px; 
+    
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.saladinLay img{
+    width: 220px;
+    height: 288px;
+}
+
+
+
+.layer{
+    
+    background: rgba(0,0,0,0.75);
+    height: 288px;
+    width: 222px;
+    position:absolute ;
+    top: 0;
+    left: 19px;
+    transition: 0.4s;
+    
+}
+.layer:hover{
+    background-color: transparent;
+}
+
+
+.layer h3{
+  text-align: center;
+  padding-top: 8px;
+}
+/*----------Qazi----------*/
+
+.QaziLay{
+    
+    padding-left: 20px; 
+    
+    border-radius: 10px;
+    
+    position: relative;
+    overflow: hidden;
+    
+}
+.QaziLay img{
+    width: 220px;
+    height: 288px;
+}
+
+
+
+.layer1{
+    
+    background: rgba(0,0,0,0.75);
+    height: 288px;
+    width: 222px;
+    position:absolute ;
+    top: 0;
+    left: 19px;
+    transition: 0.4s;
+    
+}
+.layer1:hover{
+    background-color:  transparent;
+}
+
+
+.layer1 h3{
+  text-align: center;
+  padding-top: 8px;
+}
+
+
+/*----------ramzi----------*/
+.Rnafi{
+    
+    padding-left: 20px; 
+    
+    border-radius: 10px;
+    
+    position: relative;
+    overflow: hidden;
+    
+}
+.Rnafi img{
+    width: 220px;
+    height: 288px;
+}
+
+
+
+.layer2{
+    
+    background: rgba(0,0,0,0.75);
+    height: 288px;
+    width: 222px;
+    position:absolute ;
+    top: 0;
+    left: 19px;
+    transition: 0.4s;
+    
+}
+.layer2:hover{
+    background-color:  transparent;
+}
+
+
+.layer2 h3{
+  text-align: center;
+  padding-top: 8px;
+}
+
+
+
+
+/*---------------------History-section---------------------*/
+.N-banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("background.webp");
+    background-size: contain;
+    background-position: center;
+}
+/*-----------NNN----------*/
+.NNN{
+    display: flex;
+    flex-direction: row ;
+    justify-content:space-evenly;
+    margin: -30px;
+    margin-top: 30px;
+    
+}
+/*----------hawraman----------*/
+.hauramanLay{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px; 
+    
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.hauramanLay img{
+    width: 220px;
+    height: 288px;
+}
+
+
+
+.Hlayer{
+    
+    background: rgba(0,0,0,0.75);
+    height: 288px;
+    width: 222px;
+    position:absolute ;
+    top: 0;
+    left: 19px;
+    transition: 0.4s;
+    
+}
+.Hlayer:hover{
+    background-color: transparent;
+}
+
+
+.Hlayer h3{
+  text-align: center;
+  padding-top: 8px;
+}
+
+/*----------galala----------*/
+.GalalaLay{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px; 
+    
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.GalalaLay img{
+    width: 220px;
+    height: 288px;
+}
+
+
+
+.Glayer{
+    
+    background: rgba(0,0,0,0.75);
+    height: 288px;
+    width: 222px;
+    position:absolute ;
+    top: 0;
+    left: 19px;
+    transition: 0.4s;
+    
+}
+.Glayer:hover{
+    background-color:transparent;
+}
+
+
+.Glayer h3{
+  text-align: center;
+  padding-top: 8px;
+}
+/*----------bekodyan----------*/
+.bekodyanLay{
+    display: flex;
+    justify-content: left;
+    padding-left: 20px; 
+    
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    
+}
+.bekodyanLay img{
+    width: 220px;
+    height: 288px;
+}
+
+
+
+.Blayer{
+    
+    background:  rgba(0,0,0,0.75);
+    height: 288px;
+    width: 222px;
+    position:absolute ;
+    top: 0;
+    left: 19px;
+    transition: 0.4s;
+    
+}
+.Blayer:hover{
+    background-color:transparent; 
+}
+
+
+.Blayer h3{
+  text-align: center;
+  padding-top: 8px;
+}
